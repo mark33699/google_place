@@ -38,8 +38,6 @@ class Locationbias {
       assert(point == null);
       assert(circular == null);
     }
-    if (ipbias == null || ipbias!)
-      assert(point != null && circular != null && rectangular != null);
   }
 }
 
